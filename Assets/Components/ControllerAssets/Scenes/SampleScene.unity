@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 139873602}
   - component: {fileID: 139873601}
   - component: {fileID: 139873600}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform Fast Top Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 270362288}
   - component: {fileID: 270362287}
   - component: {fileID: 270362286}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall Leap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 815983765}
   - component: {fileID: 815983764}
   - component: {fileID: 815983763}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform Fast Above
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -683,7 +683,7 @@ Transform:
   m_GameObject: {fileID: 815983762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: -2.75, z: 0}
+  m_LocalPosition: {x: 7, y: -3, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 1242438662}
   - component: {fileID: 1242438661}
   - component: {fileID: 1242438660}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -963,7 +963,6 @@ MonoBehaviour:
   _maxSpeed: 4
   _maxAcceleration: 35
   _maxAirAcceleration: 20
-  _wallStickTime: 0.25
 --- !u!96 &1354321734
 TrailRenderer:
   serializedVersion: 3
@@ -1298,6 +1297,7 @@ MonoBehaviour:
   _wallJumpClimb: {x: 4, y: 12}
   _wallJumpBounce: {x: 10.7, y: 10}
   _wallJumpLeap: {x: 14, y: 12}
+  _wallStickTime: 0.25
 --- !u!1 &1557629880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,7 +1341,7 @@ GameObject:
   - component: {fileID: 1560324176}
   - component: {fileID: 1560324175}
   - component: {fileID: 1560324174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform Slow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1500,7 +1500,7 @@ GameObject:
   - component: {fileID: 1708536789}
   - component: {fileID: 1708536788}
   - component: {fileID: 1708536787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform Fast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1659,7 +1659,7 @@ GameObject:
   - component: {fileID: 1757184478}
   - component: {fileID: 1757184477}
   - component: {fileID: 1757184476}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1818,7 +1818,7 @@ GameObject:
   - component: {fileID: 1938123417}
   - component: {fileID: 1938123416}
   - component: {fileID: 1938123415}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform Fast Top Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2003,7 +2003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a919ab706dc4e14d8339cf13ac289bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: d032016357fed8446bcb90597fa29aee, type: 2}
+  input: {fileID: 11400000, guid: da1635b6a9911f0439252cc3999a87f2, type: 2}
 --- !u!114 &2039673506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2020,6 +2020,7 @@ MonoBehaviour:
   _wallJumpClimb: {x: 4, y: 12}
   _wallJumpBounce: {x: 10.7, y: 10}
   _wallJumpLeap: {x: 14, y: 12}
+  _wallStickTime: 0.25
 --- !u!114 &2039673507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2065,7 +2066,6 @@ MonoBehaviour:
   _maxSpeed: 4
   _maxAcceleration: 35
   _maxAirAcceleration: 20
-  _wallStickTime: 0.25
 --- !u!96 &2039673510
 TrailRenderer:
   serializedVersion: 3
@@ -2347,7 +2347,7 @@ Transform:
   m_GameObject: {fileID: 2039673504}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 5.5, z: 0}
+  m_LocalPosition: {x: -5, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
