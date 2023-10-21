@@ -12,7 +12,7 @@ public class CameraBehavior : MonoBehaviour
     [SerializeField]
     private GameObject cameraSubject;
 
-    [SerializeField, Range(1f, 6f)]
+    [SerializeField, Range(1f, 10f)]
     private float smoothness = 4f;
 
     [SerializeField, Range(15f, 120f)]
