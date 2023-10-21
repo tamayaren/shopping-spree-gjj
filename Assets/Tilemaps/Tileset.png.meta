@@ -1,58 +1,58 @@
 fileFormatVersion: 2
-guid: ec624faeccce0624d82f157434c107e4
+guid: b7194191d135b674297fde67c136e0c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7484467125850591482
-    second: Shopping spree tileset_0
+      213: 5441223297315994465
+    second: Tileset_0
   - first:
-      213: -565738847332330631
-    second: Shopping spree tileset_1
+      213: -3309781605116015348
+    second: Tileset_1
   - first:
-      213: -8233290607431532922
-    second: Shopping spree tileset_2
+      213: -6108889420429456849
+    second: Tileset_2
   - first:
-      213: 4653439385340541442
-    second: Shopping spree tileset_3
+      213: 5682393469540925955
+    second: Tileset_3
   - first:
-      213: 1918491899133635799
-    second: Shopping spree tileset_4
+      213: 2403724249865808194
+    second: Tileset_4
   - first:
-      213: -7589360400968571895
-    second: Shopping spree tileset_5
+      213: 8040196581939011165
+    second: Tileset_5
   - first:
-      213: 5112557790648536164
-    second: Shopping spree tileset_6
+      213: -6056380807486736462
+    second: Tileset_6
   - first:
-      213: -3903359422056306328
-    second: Shopping spree tileset_7
+      213: -8480404140891905064
+    second: Tileset_7
   - first:
-      213: -2931492298910505093
-    second: Shopping spree tileset_8
+      213: -72156938504300551
+    second: Tileset_8
   - first:
-      213: -6034415238531010651
-    second: Shopping spree tileset_9
+      213: 7769453424612927293
+    second: Tileset_9
   - first:
-      213: 8341758678227058236
-    second: Shopping spree tileset_10
+      213: -8025435653959805260
+    second: Tileset_10
   - first:
-      213: 2858856740555170034
-    second: Shopping spree tileset_11
+      213: 4938342473259674171
+    second: Tileset_11
   - first:
-      213: -3874015745348373521
-    second: Shopping spree tileset_12
+      213: -6315978382755026507
+    second: Tileset_12
   - first:
-      213: 166773678141741278
-    second: Shopping spree tileset_13
+      213: -1010255394613501995
+    second: Tileset_13
   - first:
-      213: -2532135860037899073
-    second: Shopping spree tileset_14
+      213: -7933298228110686459
+    second: Tileset_14
   - first:
-      213: -3244299325519888658
-    second: Shopping spree tileset_15
+      213: 2167505942708378944
+    second: Tileset_15
   - first:
-      213: 8678401626416728025
-    second: Shopping spree tileset_16
+      213: -9164683769879867358
+    second: Tileset_16
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -85,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -142,17 +142,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shopping spree tileset_0
+      name: Tileset_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 171
-        width: 26
-        height: 26
+        x: 6
+        y: 172
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,104 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60f269eadc4d12890800000000000000
-      internalID: -7484467125850591482
+      spriteID: 16b791492cb138b40800000000000000
+      internalID: 5441223297315994465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shopping spree tileset_1
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 171
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9731e1904871628f0800000000000000
-      internalID: -565738847332330631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shopping spree tileset_2
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 171
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68ebb7b70d97dbd80800000000000000
-      internalID: -8233290607431532922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shopping spree tileset_3
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 10
-        width: 86
-        height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20af80b4776549040800000000000000
-      internalID: 4653439385340541442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shopping spree tileset_4
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 148
-        width: 22
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7dc2358b73adf9a10800000000000000
-      internalID: 1918491899133635799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shopping spree tileset_5
+      name: Tileset_1
       rect:
         serializedVersion: 2
         x: 34
-        y: 148
-        width: 22
-        height: 21
+        y: 172
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9042adbecec2da690800000000000000
-      internalID: -7589360400968571895
+      spriteID: c0d00f68a2b4112d0800000000000000
+      internalID: -3309781605116015348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shopping spree tileset_6
+      name: Tileset_2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 148
-        width: 22
-        height: 21
+        x: 62
+        y: 172
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46c034d193473f640800000000000000
-      internalID: 5112557790648536164
+      spriteID: f2a092b307dd83ba0800000000000000
+      internalID: -6108889420429456849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shopping spree tileset_7
+      name: Tileset_3
       rect:
         serializedVersion: 2
-        x: 5
-        y: 110
-        width: 83
-        height: 36
+        x: 95
+        y: 11
+        width: 84
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 869e8a9594b74d9c0800000000000000
-      internalID: -3903359422056306328
+      spriteID: 3028cf101caebde40800000000000000
+      internalID: 5682393469540925955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shopping spree tileset_8
+      name: Tileset_4
       rect:
         serializedVersion: 2
-        x: 5
-        y: 74
-        width: 83
-        height: 36
+        x: 6
+        y: 149
+        width: 25
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7765ad294f3157d0800000000000000
-      internalID: -2931492298910505093
+      spriteID: 2496e33487ebb5120800000000000000
+      internalID: 2403724249865808194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shopping spree tileset_9
+      name: Tileset_5
       rect:
         serializedVersion: 2
-        x: 292
-        y: 8
-        width: 122
-        height: 119
+        x: 34
+        y: 149
+        width: 24
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5afa720ff43714ca0800000000000000
-      internalID: -6034415238531010651
+      spriteID: d5ed8c64134849f60800000000000000
+      internalID: 8040196581939011165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shopping spree tileset_10
+      name: Tileset_6
       rect:
         serializedVersion: 2
-        x: 5
-        y: 38
-        width: 83
-        height: 36
+        x: 62
+        y: 149
+        width: 25
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3e71c14251e3c370800000000000000
-      internalID: 8341758678227058236
+      spriteID: 2b772416eb963fba0800000000000000
+      internalID: -6056380807486736462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shopping spree tileset_11
+      name: Tileset_7
       rect:
         serializedVersion: 2
-        x: 185
-        y: 47
-        width: 65
-        height: 36
+        x: 6
+        y: 111
+        width: 81
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,83 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f0a5840f03bca720800000000000000
-      internalID: 2858856740555170034
+      spriteID: 8d3e26e6d5d8f4a80800000000000000
+      internalID: -8480404140891905064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shopping spree tileset_12
+      name: Tileset_8
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 27
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe37d3c743bbc3ac0800000000000000
-      internalID: -3874015745348373521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shopping spree tileset_13
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 5
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed81683d6cf705200800000000000000
-      internalID: 166773678141741278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shopping spree tileset_14
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 5
-        width: 27
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbca963e9db0cdcd0800000000000000
-      internalID: -2532135860037899073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shopping spree tileset_15
-      rect:
-        serializedVersion: 2
-        x: 185
+        x: 293
         y: 9
-        width: 65
-        height: 36
+        width: 120
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eeef855d3fee9f2d0800000000000000
-      internalID: -3244299325519888658
+      spriteID: 9f71f5095a5affef0800000000000000
+      internalID: -72156938504300551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shopping spree tileset_16
+      name: Tileset_9
       rect:
         serializedVersion: 2
-        x: 255
-        y: 8
-        width: 37
-        height: 17
+        x: 6
+        y: 75
+        width: 81
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,8 +361,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d7cdb09c40ef6870800000000000000
-      internalID: 8678401626416728025
+      spriteID: d37eef0b9b4a2db60800000000000000
+      internalID: 7769453424612927293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 48
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b698f51bccef9090800000000000000
+      internalID: -8025435653959805260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 39
+        width: 81
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3aedd1a054888440800000000000000
+      internalID: 4938342473259674171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 10
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b927d6df132958a0800000000000000
+      internalID: -6315978382755026507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfd3a7321adaf1f0800000000000000
+      internalID: -1010255394613501995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 6
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5070a304b4347e190800000000000000
+      internalID: -7933298228110686459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 6
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d5ea3cb27841e10800000000000000
+      internalID: 2167505942708378944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 9
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220d589faa080d080800000000000000
+      internalID: -9164683769879867358
       vertices: []
       indices: 
       edges: []
@@ -505,7 +517,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 57387c9d56132594c85aa4a1df3018b6
     internalID: 0
     vertices: []
     indices: 
@@ -513,23 +525,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Shopping spree tileset_0: -7484467125850591482
-      Shopping spree tileset_1: -565738847332330631
-      Shopping spree tileset_10: 8341758678227058236
-      Shopping spree tileset_11: 2858856740555170034
-      Shopping spree tileset_12: -3874015745348373521
-      Shopping spree tileset_13: 166773678141741278
-      Shopping spree tileset_14: -2532135860037899073
-      Shopping spree tileset_15: -3244299325519888658
-      Shopping spree tileset_16: 8678401626416728025
-      Shopping spree tileset_2: -8233290607431532922
-      Shopping spree tileset_3: 4653439385340541442
-      Shopping spree tileset_4: 1918491899133635799
-      Shopping spree tileset_5: -7589360400968571895
-      Shopping spree tileset_6: 5112557790648536164
-      Shopping spree tileset_7: -3903359422056306328
-      Shopping spree tileset_8: -2931492298910505093
-      Shopping spree tileset_9: -6034415238531010651
+      Tileset_0: 5441223297315994465
+      Tileset_1: -3309781605116015348
+      Tileset_10: -8025435653959805260
+      Tileset_11: 4938342473259674171
+      Tileset_12: -6315978382755026507
+      Tileset_13: -1010255394613501995
+      Tileset_14: -7933298228110686459
+      Tileset_15: 2167505942708378944
+      Tileset_16: -9164683769879867358
+      Tileset_2: -6108889420429456849
+      Tileset_3: 5682393469540925955
+      Tileset_4: 2403724249865808194
+      Tileset_5: 8040196581939011165
+      Tileset_6: -6056380807486736462
+      Tileset_7: -8480404140891905064
+      Tileset_8: -72156938504300551
+      Tileset_9: 7769453424612927293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
