@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shopping_Spree_Logo_0: -741646032470060847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
