@@ -3,43 +3,49 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class MainMenuBehaviours : MonoBehaviour
 {
-    public string startSceneName = "LevelDesign";
-    public string creditSceneName = "Credits";
-
-    public void Start()
-    {
-        Button startButton = GameObject.Find("StartButton").GetComponent<Button>();
-        Button optionsButton = GameObject.Find("OptionsButton").GetComponent<Button>();
-        Button creditsButton = GameObject.Find("CreditsButton").GetComponent<Button>();
-        Button quitButton = GameObject.Find("QuitButton").GetComponent<Button>();
-
-        // Attach click event listeners to the buttons
-        startButton.onClick.AddListener(StartGame);
-        optionsButton.onClick.AddListener(Options);
-        creditsButton.onClick.AddListener(Credits);
-        quitButton.onClick.AddListener(QuitGame);
-    }
-
     public void StartGame()
     {
-        SceneManager.LoadScene(startSceneName, LoadSceneMode.Single);
-    }
-
-    public void Options()
-    {
-
+       SceneManager.LoadScene("LevelDesign", LoadSceneMode.Single);
     }
 
     public void Credits()
     {
-        SceneManager.LoadScene(creditSceneName, LoadSceneMode.Single);
+        SceneManager.LoadScene("Credits", LoadSceneMode.Single);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenuUI", LoadSceneMode.Single);
+        }
+    }
+
+    public void CloseCreds () 
+    {
+        SceneManager.LoadScene("MainMenuUI", LoadSceneMode.Single);
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void BacktoStart() 
+    {
+        SceneManager.LoadScene("MainMenuUI", LoadSceneMode.Single);
+    }
+
+    public void BacktoGame()
+    {
+        SceneManager.UnloadSceneAsync("GroceryList");
+        Time.timeScale = 1f;
+
+        MainMenuSwitch mainMenuSwitch = GameObject.FindFirstObjectByType<MainMenuSwitch>();
+        if (!ReferenceEquals(mainMenuSwitch, null))
+        {
+            mainMenuSwitch.isEscaped = false;
+        }
     }
 }

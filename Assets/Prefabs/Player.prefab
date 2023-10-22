@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5957998630567547178}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 2
+  m_Mass: 7.031251
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
@@ -178,6 +178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: 1
   properties: {fileID: 11400000, guid: 519bd8221687d6e428fa4f648d12b2b2, type: 2}
+  playerFlip: {fileID: 0}
+  facingLeft: 0
   speed: 1
   jumpPower: 250
   drag: 0.3
@@ -230,7 +232,7 @@ MonoBehaviour:
     m_TrimEdge: 0
     m_FlipX: 0
     m_FlipY: 0
-    m_InitialTrim: 0.05
+    m_InitialTrim: 0.09
   m_CastingOption: 1
   references:
     version: 2

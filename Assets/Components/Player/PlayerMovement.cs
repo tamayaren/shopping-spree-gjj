@@ -4,6 +4,7 @@ using Unity.Collections;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -102,11 +103,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        //JUMP
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
         {
             this.Jump();
         }
 
+        //For flipping the player
         if (Input.GetKeyDown(KeyCode.A) && !facingLeft)
         {
             playerFlip.transform.Rotate(0, -180, 0);
