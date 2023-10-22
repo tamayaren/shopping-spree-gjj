@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 83aad870dc1d9124cb38fcacdd9ac2c2
+guid: 7a4125709927df04da93e21dab46ebf2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2731795287329381114
-    second: enemies_0
+      213: -807493168850395936
+    second: Rat Spritesheet_0
   - first:
-      213: 3229708652140166120
-    second: enemies_1
+      213: -2005645566866734961
+    second: Rat Spritesheet_1
   - first:
-      213: 876784968147787122
-    second: enemies_2
+      213: -8206414076572999695
+    second: Rat Spritesheet_2
   - first:
-      213: 1961183383047197949
-    second: enemies_3
-  - first:
-      213: -3351989875833439213
-    second: enemies_4
-  - first:
-      213: -3029504926045522119
-    second: enemies_5
+      213: -118771107925713191
+    second: Rat Spritesheet_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -125,64 +119,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemies_1
+      name: Rat Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
-        width: 49
-        height: 41
+        y: 0
+        width: 201
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ebf1da48ea32dc20800000000000000
-      internalID: 3229708652140166120
+      spriteID: 0ec1e10cd353bc4f0800000000000000
+      internalID: -807493168850395936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemies_2
+      name: Rat Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 70
+        x: 199
         y: 0
-        width: 63
-        height: 81
+        width: 202
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27dd9da7847fa2c00800000000000000
-      internalID: 876784968147787122
+      spriteID: f804299bbf38a24e0800000000000000
+      internalID: -2005645566866734961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemies_3
+      name: Rat Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 165
+        x: 399
         y: 0
-        width: 63
-        height: 81
+        width: 202
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df45de565e5873b10800000000000000
-      internalID: 1961183383047197949
+      spriteID: 1ffd91670e5fc1e80800000000000000
+      internalID: -8206414076572999695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 201
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de128e7e4a0a5ef0800000000000000
+      internalID: -118771107925713191
       vertices: []
       indices: 
       edges: []
@@ -190,7 +205,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5d09557b45a047247a26c8470d052c1d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +213,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemies_1: 3229708652140166120
-      enemies_2: 876784968147787122
-      enemies_3: 1961183383047197949
+      Rat Spritesheet_0: -807493168850395936
+      Rat Spritesheet_1: -2005645566866734961
+      Rat Spritesheet_2: -8206414076572999695
+      Rat Spritesheet_3: -118771107925713191
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

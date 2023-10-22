@@ -1,25 +1,13 @@
 fileFormatVersion: 2
-guid: 83aad870dc1d9124cb38fcacdd9ac2c2
+guid: 57cc6fbadf9760044ad0ea0acd7c7507
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2731795287329381114
-    second: enemies_0
+      213: -1342580450853752975
+    second: Fly Spritesheet_0
   - first:
-      213: 3229708652140166120
-    second: enemies_1
-  - first:
-      213: 876784968147787122
-    second: enemies_2
-  - first:
-      213: 1961183383047197949
-    second: enemies_3
-  - first:
-      213: -3351989875833439213
-    second: enemies_4
-  - first:
-      213: -3029504926045522119
-    second: enemies_5
+      213: 4499708602318129055
+    second: Fly Spritesheet_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -125,64 +113,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemies_1
+      name: Fly Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 10
-        width: 49
-        height: 41
+        x: 35
+        y: 39
+        width: 130
+        height: 122
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ebf1da48ea32dc20800000000000000
-      internalID: 3229708652140166120
+      spriteID: 17f6a7871323e5de0800000000000000
+      internalID: -1342580450853752975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemies_2
+      name: Fly Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 70
-        y: 0
-        width: 63
-        height: 81
+        x: 221
+        y: 45
+        width: 130
+        height: 94
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27dd9da7847fa2c00800000000000000
-      internalID: 876784968147787122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemies_3
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 0
-        width: 63
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df45de565e5873b10800000000000000
-      internalID: 1961183383047197949
+      spriteID: f9701f1222d227e30800000000000000
+      internalID: 4499708602318129055
       vertices: []
       indices: 
       edges: []
@@ -190,7 +157,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5d09557b45a047247a26c8470d052c1d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +165,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemies_1: 3229708652140166120
-      enemies_2: 876784968147787122
-      enemies_3: 1961183383047197949
+      Fly Spritesheet_0: -1342580450853752975
+      Fly Spritesheet_1: 4499708602318129055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
