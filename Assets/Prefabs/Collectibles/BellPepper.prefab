@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2504092620606727477}
   - component: {fileID: 6851092202271268658}
   - component: {fileID: 1127060587787160110}
+  - component: {fileID: 4088109184838411073}
   m_Layer: 0
   m_Name: BellPepper
   m_TagString: Collectibles
@@ -131,3 +132,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4088109184838411073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2525505546284598339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c756d6b0899ac24eb77b25b2bc2e17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chips: 0
+  chocoSticks: 0
+  bellPepper: 0
+  tomato: 0
+  pancitBihon: 0

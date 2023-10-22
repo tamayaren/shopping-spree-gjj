@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5838424768917320013}
   - component: {fileID: 3783462313379858593}
   - component: {fileID: 5292847659509062237}
+  - component: {fileID: 5769161833151164522}
   m_Layer: 0
   m_Name: AirChips
   m_TagString: Collectibles
@@ -131,3 +132,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5769161833151164522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6068599002626566726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c756d6b0899ac24eb77b25b2bc2e17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chips: 0
+  chocoSticks: 0
+  bellPepper: 0
+  tomato: 0
+  pancitBihon: 0
