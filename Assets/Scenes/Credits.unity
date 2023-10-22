@@ -351,8 +351,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ' Esc to go Back'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4da2c5261a397844ca41080fc8655cb0, type: 2}
-  m_sharedMaterial: {fileID: 5007319327254607538, guid: 4da2c5261a397844ca41080fc8655cb0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5bbcdb3228fbd8a4b92647da8a6688fd, type: 2}
+  m_sharedMaterial: {fileID: -1880583542856538572, guid: 5bbcdb3228fbd8a4b92647da8a6688fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -579,8 +579,8 @@ MonoBehaviour:
     Designer, Lead Developer\n\nkaizoed - Programmer\n\nib0n - Programmer\n\nronssae
     - 2D Artist\n\ngreen_jaguar\r             - Sound Designer\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4da2c5261a397844ca41080fc8655cb0, type: 2}
-  m_sharedMaterial: {fileID: 5007319327254607538, guid: 4da2c5261a397844ca41080fc8655cb0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5bbcdb3228fbd8a4b92647da8a6688fd, type: 2}
+  m_sharedMaterial: {fileID: -1880583542856538572, guid: 5bbcdb3228fbd8a4b92647da8a6688fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -713,8 +713,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4da2c5261a397844ca41080fc8655cb0, type: 2}
-  m_sharedMaterial: {fileID: 5007319327254607538, guid: 4da2c5261a397844ca41080fc8655cb0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5bbcdb3228fbd8a4b92647da8a6688fd, type: 2}
+  m_sharedMaterial: {fileID: -1880583542856538572, guid: 5bbcdb3228fbd8a4b92647da8a6688fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
