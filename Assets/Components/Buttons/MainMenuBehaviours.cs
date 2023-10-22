@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuBehaviours : MonoBehaviour
 {
-    public string startSceneName = "FirstLevel";
+    public string startSceneName = "LevelDesign";
     public string creditSceneName = "Credits";
 
     public void Start()
