@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fieldOfView: 40
   smoothness: 10
-  distance: 8
-  size: 5
+  distance: 10
+  size: 10

@@ -15,10 +15,12 @@ public class PlayerMovement : MonoBehaviour
     private PlayerProperties properties;
 
     private Rigidbody2D rigidbody;
+    public GameObject playerFlip;
+    public bool facingLeft = false;
 
-    public float speed;
-    public float jumpPower;
-    public float drag;
+    public float speed = 1.5f;
+    public float jumpPower = 250f;
+    public float drag = 0.3f;
 
     public bool CanMove = true;
     public bool CanJump = true;
@@ -79,6 +81,9 @@ public class PlayerMovement : MonoBehaviour
             // MovePosition translates the position of the GameObject with respect of collision.
             this.rigidbody.MovePosition(this.rigidbody.position + (this.rigidbody.velocity * Time.fixedDeltaTime) + new Vector2(input.x * (computedSpeed * this.drag), 0));
         }
+
+
+
     }
 
     // Jump Logic
@@ -97,9 +102,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
         {
             this.Jump();
+        }
+
+        if (Input.GetKeyDown(KeyCode.A) && !facingLeft)
+        {
+            playerFlip.transform.Rotate(0, -180, 0);
+            facingLeft = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.D) && facingLeft)
+        {
+            facingLeft = false;
+            playerFlip.transform.Rotate(0, 180, 0);
         }
     }
 
@@ -112,6 +129,7 @@ public class PlayerMovement : MonoBehaviour
         this.IsMovingHorizontal = hInput != 0;
 
         Move(new Vector2(hInput, vInput));
+
     }
 
     // Jump Cooldown logic

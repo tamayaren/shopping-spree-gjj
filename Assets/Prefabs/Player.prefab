@@ -178,9 +178,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: 1
   properties: {fileID: 11400000, guid: 519bd8221687d6e428fa4f648d12b2b2, type: 2}
-  speed: 3
-  jumpPower: 220
-  drag: 0.2
+  speed: 1
+  jumpPower: 250
+  drag: 0.3
   CanMove: 1
   CanJump: 1
   jumpEvent:
