@@ -345,6 +345,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 709e6f66ebd49f84889b3a959384cf71, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1167106273857197301}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 709e6f66ebd49f84889b3a959384cf71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1466192087346440362}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 709e6f66ebd49f84889b3a959384cf71, type: 3}
 --- !u!4 &426584354520141186 stripped
 Transform:
@@ -391,3 +394,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 1537870555820694483}
+--- !u!114 &1466192087346440362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523221494558283233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_Priority: 0
+  m_ComponentVersion: 3
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.11819326, y: 0.0986268, z: 0}
+  - {x: -0.1069784, y: 0.222865, z: 0}
+  - {x: -0.10841, y: 0.28188986, z: 0}
+  - {x: -0.10280252, y: 0.41272956, z: 0}
+  - {x: 0.04299026, y: 0.42581353, z: 0}
+  - {x: 0.04299026, y: 0.29497382, z: 0}
+  - {x: 0.02473633, y: 0.23407982, z: 0}
+  - {x: 0.02473633, y: 0.10236506, z: 0}
+  m_ShapePathHash: 1509174243
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 0}
+  m_ShadowShape2DProvider:
+    rid: -2
+  m_ShadowCastingSource: 1
+  m_ShadowMesh:
+    m_Mesh: {fileID: 0}
+    m_LocalBounds:
+      m_Center: {x: -0.0376015, y: 0.26222017, z: 0}
+      m_Extent: {x: 0.08059176, y: 0.16359337, z: 0}
+    m_EdgeProcessing: 1
+    m_TrimEdge: 0
+    m_FlipX: 0
+    m_FlipY: 0
+    m_InitialTrim: 0
+  m_CastingOption: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

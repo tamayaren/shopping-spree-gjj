@@ -7,6 +7,9 @@ using Unity.VisualScripting;
 
 public class MainMenuBehaviours : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject options;
+
     public void StartGame()
     {
        SceneManager.LoadScene("LevelDesign", LoadSceneMode.Single);
@@ -47,5 +50,10 @@ public class MainMenuBehaviours : MonoBehaviour
         {
             mainMenuSwitch.isEscaped = false;
         }
+    }
+
+    public void Options()
+    {
+        options.SetActive(true);
     }
 }
